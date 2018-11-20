@@ -39,13 +39,16 @@
     "waait": "1.0.2"
   },
   "devDependencies": {
+    "@dimax-ar/eslint-config-dimax": "3.0.1",
     "babel-jest": "23.6.0",
     "babel-plugin-module-resolver": "3.1.1",
     "casual": "1.5.19",
     "enzyme-to-json": "3.3.4",
+    "eslint": "5.9.0",
     "graphql-tools": "4.0.0",
     "jest": "23.6.0",
-    "jest-transform-graphql": "2.1.0"
+    "jest-transform-graphql": "2.1.0",
+    "prettier": "1.15.2"
   },
   "jest": {
     "setupTestFrameworkScriptFile": "<rootDir>/jest.setup.js",
