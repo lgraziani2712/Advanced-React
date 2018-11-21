@@ -1,14 +1,25 @@
 import Link from 'next/link';
 
+import NavStyles from './styles/NavStyles';
+
 export default function Nav() {
   return (
-    <div>
-      <Link href="/">
-        <a>To home!</a>
+    <NavStyles>
+      <Link href="/items">
+        <a>items</a>
       </Link>
       <Link href="/sell">
-        <a>To Sell!</a>
+        <a>sell</a>
       </Link>
-    </div>
+      <Link href="/signup">
+        <a>signup</a>
+      </Link>
+      <Link href="/orders">
+        <a>orders</a>
+      </Link>
+      <Link href="/me">
+        <a>me</a>
+      </Link>
+    </NavStyles>
   );
 }

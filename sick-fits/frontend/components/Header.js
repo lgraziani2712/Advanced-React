@@ -40,7 +40,7 @@ const StyledHeader = styled.header`
   .sub-bar {
     display: grid;
     grid-template-columns: 1fr auto;
-    border-bottom: 10px solid ${props => props.theme.lightGrey};
+    border-bottom: 10px solid ${props => props.theme.lightgrey};
   }
 `;
 
